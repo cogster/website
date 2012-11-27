@@ -1,0 +1,227 @@
+/*
+Color Scheme
+ 
+ #A60000 Title
+ #FF0000 background
+ #FF7373 Boxes
+*/
+html {
+        background: url('../image/boobies.jpg') no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+}
+body{background-color:#FFFFFF;
+
+opacity:0.8;
+filter:alpha(opacity=8); /* For IE8 and earlier */
+margin-top:0px;
+padding-bottom:15px;
+position:center; 
+min-width:5in;
+}
+
+div.menu{
+background-color: #FFFFFF;
+word-spacing:10px;
+border-bottom:0;
+margin-top:0px;
+padding-top:0px;
+margin-left : 70%;
+}
+
+a.menu{
+text-decoration:none;
+font-weight:50;
+a:link {color:#FF0000;}    /* unvisited link */
+a:visited {color:#00FF00;} /* visited link */
+a:hover {color:#FF00FF;}   /* mouse over link */
+a:active {color:#0000FF;}  /* selected link */
+}
+
+
+
+span.menuselect{
+//background-color: #FF0000;
+font-weight:900;
+margin-top:0;
+padding-top:0px;
+border-top:.0px;
+border-left:.0px;
+border-right:.0px;
+border-style:solid;
+//border-color:#FF0000;
+word-spacing:10px;
+
+}
+
+div.border{
+padding-bottom: 15px;
+padding-top: 15px;
+background-color: #FF0000;
+
+}
+div.container{
+width:2000px; 
+min-width:5in;
+margin-top:0px;
+}
+div.content{
+background-color:#FFFFFF;
+height:1000px;
+width:50%;
+float:left;
+min-width:3in;
+}
+div.footer{
+background-color:#FFA500;
+clear:both;
+text-align:center;
+}
+div.header{
+background-color:#FFA500;
+}
+div.menu2{
+margin-top:0px;
+height:1400px; 
+width:900px;
+float:left; 
+min-width:3in;
+}
+div.wrapper {
+margin-left : 10%;
+margin-right : 10%;
+}
+
+h1.home{
+font-family: monospace;
+padding-left: 21px;
+padding-right: 15px;
+background-color: #FFFFFF;
+//background-color: #F6465B;
+  margin-top:0px;
+  margin-bottom:0px;
+  padding-bottom:0px;
+border-bottom:0px; 
+position: center;
+min-width: 4in;
+ }
+.end{padding-left: 15px;
+padding-right: 15px;
+background-color: #A60000;
+opacity:0.8;
+
+  margin-top:0;
+  margin-bottom:0;
+min-width: 4in;
+}
+h2{
+  margin-top:20px;
+  margin-bottom:0;
+background-color: #FF7373;
+position: center;
+border-style: solid;
+border-bottom-style:none;
+
+padding-left: 5px;
+padding-right: 5px;
+padding-top: 5px;
+font-size: .8em;
+min-width: 4in;
+text-align: justify;
+width:75px;
+
+}
+
+
+span.menu{
+background-color: #FFFFFF;
+border-style:solid;
+border-color:#000000;
+}
+/*
+css class use property.classname: value
+html call will be <property class = classname > 
+
+border-collapse:collapse;
+*/
+table.first,tr,td{
+min-width: .5in;
+padding-left: 5px;
+padding-right: 5px;
+  margin-top:0px;
+  margin-bottom: 0px;
+padding-bottom: 0px;
+border-style:solid;
+border-color:#000000;
+border-width:1px;
+position: center; 
+background-color: #FFFFFF;
+
+
+}
+table{
+background-color: #000000;
+width:50%;
+}
+
+tr{
+background-color: #FFFFFF;
+}
+td{
+background-color: #FFFFFF;
+}
+th.selected{
+background-color: #A60000;
+}
+
+p.box{
+  margin-top:0;
+  margin-bottom: 0;
+background-color: #FF7373;
+border-style: solid;
+border-top-style:none;
+position: center;
+top: 160px;
+left: 190px;
+right: 175px;
+padding-left: 5px;
+padding-right:5px;
+padding-bottom: 5px;
+padding-top: 5px;
+font-size: .8em;
+min-width: 4in;
+text-align: justify;
+text-indent:25px;
+width:75px;
+ }
+
+.center{
+position: center;
+top: 160px;
+left: 190px;
+right: 175px;
+padding-left: 15px;
+padding-right: 15px;
+padding-top: 20px;
+font-size: .8em;
+min-width: 4in;
+text-align: justify;
+}
+
+.tab{
+padding-left: 15px;
+}
+
+.login{
+//padding-left: 50px;
+text-align: left; 
+font-size: 13px;
+}
+
+a.big{
+font-size:15px;
+}
+
+
